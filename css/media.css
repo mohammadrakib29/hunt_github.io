@@ -1,0 +1,720 @@
+/* ==================Extra extra large Devices================= */
+
+
+/* ==================Extra large Devices================= */
+@media (min-width:1200px) and (max-width:1399.98px){
+     /* slide bar goes to here------- */
+     .side-slide  {
+        display: none;
+    }
+     /*  footer goes to here---------*/
+    #footer::after {
+        transform: rotate(-4deg);
+    }
+}
+
+/* ==================Large Devices================= */
+@media (min-width:992px) and (max-width:1199.98px){
+    /* slide bar goes to here------- */
+    .side-slide  {
+        display: none;
+    }
+    /* about us bar goes to here------- */
+    .about-box-top {
+        width: 300px;
+        top: -48%;
+    }
+    .about-box-bottom {
+        width: 300px;
+        bottom: -86%;
+    }
+    .about-box-left {
+        width: 300px;
+        left: -14px;
+    }
+    .about-box-right {
+        width: 300px;
+        right: -1.5%;
+    }
+    .about-item .mid-circle {
+        width: 310px;
+        height: 310px;
+    }
+    .about-item .img-circle {
+        width: 280px;
+        height: 280px;
+    }
+    .about-box-top::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about-box-bottom::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about-box-right::before {
+        width: 15px;
+        height: 15px;
+        left: -9%;
+    }
+    .about-box-left::before {
+        width: 15px;
+        height: 15px;
+    }
+   
+    .about-box-right::after {
+        left: 4%;
+    }
+    .about-box-left::after {
+        right: -9%;
+    }
+    /* protfolio bar goes to here------- */
+    .gallery-img {
+        margin: 0 7.5px;
+    }
+    .gallery-item {
+        padding-bottom: 15px;
+    }
+    /*  feedback goes to here---------*/
+    .feed-slider-item {
+        padding: 21px;
+    }
+    .feed-img {
+        width: 90px;
+        height: 90px;
+    }
+    .feedback-arrows-main::after {
+        height: 110%;
+
+    }
+    /*  footer goes to here---------*/
+    #footer::after {
+        transform: rotate(-5deg);
+    }
+
+
+}
+
+/* ==================Medium Devices================= */
+@media (min-width:768px) and (max-width:991.98px){
+    /* slide bar goes to here------- */
+    .navbar-toggler {
+        display: none;
+    }
+    .slide-openbar {
+        left: auto;
+        right: 43px;
+        top: 23px;
+    }
+    .slide-openbar i {
+        font-size: 24px;
+    }
+    /* Nav bar goes to here------- */
+    .navbar {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        font-size: 22px;
+        color: #fff;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        line-height: 40px;
+    }
+    .navbar-expand-lg.nav-bg .navbar-nav .nav-link {
+        line-height: 35px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link.active::after {
+        width: 25%;
+        opacity: 1;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover::after {
+        width: 25%;
+        opacity: 1;
+    }
+     /* about us bar goes to here------- */
+     .about-box-top {
+        width: 250px;
+        top: -76%;
+        padding: 15px;
+    }
+    .about-box-bottom {
+        width: 250px;
+        bottom: -134%;
+        padding: 15px;
+    }
+    .about-box-left {
+        width: 250px;
+        padding: 15px;
+        left: -12px;
+    }
+    .about-box-right {
+        width: 250px;
+        padding: 15px;
+        right: -1.5%;
+    }
+    .about-item .mid-circle {
+        width: 180px;
+        height: 180px;
+    }
+    .about-item .img-circle {
+        width: 150px;
+        height: 150px;
+    }
+    .about-box-top::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about-box-bottom::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about-box-right::before {
+        width: 15px;
+        height: 15px;
+        left: -8%;
+    }
+    .about-box-left::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about-item h4 {
+        font-size: 14px;
+    }
+    .about-item p {
+        font-size: 13px;
+    }
+    .about-box-right::after {
+        left: 6%;
+    }
+    .about-box-left::after {
+        right: -9%;
+    }
+     /* protfolio bar goes to here------- */
+     .gallery-img {
+        margin: 0 7.5px;
+    }
+    .gallery-item {
+        padding-bottom: 15px;
+    }
+    .gall-overlay i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .vbox-container img {
+        max-width: 100%;
+    }
+     /* services bar goes to here------- */
+    .service-desc p {
+        padding: 20px 25px;
+    }
+    /* pricing plan bar goes to here------- */
+    .pricing-main {
+        margin-bottom: 20px;
+    }
+
+    /* counter bar goes to here------- */
+    .counter-item h3 {
+        font-size: 24px;
+    }
+    .counter-item h4 {
+        font-size: 13px;
+    }
+    /* our team goes to here----- */
+    .team-icon i {
+        margin: 0 2px;
+    }
+     /* foooter bar goes to here------- */
+     
+    #footer {
+        margin-top: -64px;
+        clip-path: polygon(0 10.5%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .footer-logo {
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    #footer::after {
+        bottom: 74%;
+        transform: rotate(-6deg);
+    }
+    .border-right {
+        margin-bottom: 20px;
+    }
+    .follow-us {
+        padding-top: 30px;
+    }
+
+
+}
+
+/* ==================Small Devices================= */
+@media (min-width:576px) and (max-width:767.98px){
+     /* slide bar goes to here------- */
+     .navbar-toggler {
+        display: none;
+    }
+    .slide-openbar {
+        left: auto;
+        right: 43px;
+        top: 23px;
+    }
+     /* Nav bar goes to here------- */
+     .navbar {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        font-size: 22px;
+        color: #fff;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        line-height: 40px;
+    }
+    .navbar-expand-lg.nav-bg .navbar-nav .nav-link {
+        line-height: 35px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link.active::after {
+        width: 25%;
+        opacity: 1;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover::after {
+        width: 25%;
+        opacity: 1;
+    }
+     /* about us bar goes to here------- */
+     .about-box-top {
+        width: 300px;
+        top: -45%;
+        padding: 25px 25px 20px 25px;
+    }
+    .about-box-bottom {
+        width: 300px;
+        bottom: -77%;
+        padding: 25px 25px 20px 25px;
+    }
+    .about-box-right {
+        display: none;
+    }
+    .about-box-left {
+        display: none;
+    }
+    .about-item .mid-circle {
+        width: 300px;
+        height: 300px;
+    }
+    .about-item .img-circle {
+        width: 280px;
+        height: 280px;
+    }
+    .about-box-top::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about-box-bottom::before {
+        width: 15px;
+        height: 15px;
+    }
+     /* protfolio bar goes to here------- */
+     .gallery-img {
+        margin: 0 7.5px;
+    }
+    .gallery-item {
+        padding-bottom: 15px;
+    }
+    .gall-overlay i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .vbox-container img {
+        max-width: 100%;
+    }
+
+    /* services goes to here------- */
+    #services .service-item.slick-center .service-icon {
+        transform: scale(1);
+    }
+    .service-title {
+        padding-bottom: 10px;
+    }
+    .service-icon {
+        margin-bottom: 10px;
+    }
+    .service-desc1 p::after {
+        top: -6px;
+        right: 37%;
+        background-color: #f1f1f1;
+        transform: translateX(-50%) rotate(-45deg);
+    }
+    .service-desc p::after {
+        top: -6px;
+        left: 50%;
+        transform: translateX(-50%) rotate(-45deg);
+    }
+    .service-desc {
+        padding-top: 20px;
+    }
+
+    .service-chavron-icon .upp1{
+        top: 0;
+    }
+    .service-chavron-icon .downn1{
+        bottom: 0;
+    }
+     /* testimonial bar goes to here------- */
+     .feedback-arrowss {
+        z-index: 1;
+        position: relative;
+    }
+
+    .feed-slider-item {
+        padding: 0;
+    }
+    .feed-slider-item.slick-slide {
+        padding: 10px 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feed-desc-item::after {
+        top: -2%;
+        left: 50%;
+        transform: translateX(-50%)rotate(-45deg);
+        background-color: #f1f1f1;
+    }
+    #feedback .feed-slider-desc .slick-list.draggable {
+	padding: 95px 0px;
+    }
+    .feed-desc-text p {
+        padding-bottom: 0;
+    }
+    .feedback-arrowss .down1 {
+        bottom: -60%;
+    }
+    .feedback-arrows-main::after {
+        height: 0;
+    }
+     /* pricing plan bar goes to here------- */
+     .pricing-main {
+        margin-bottom: 20px;
+    }
+     /* counter bar goes to here------- */
+     #counter {
+        clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    }
+    .counter-main1 {
+        padding: 150px 0;
+    }
+    .counter-main {
+        margin-bottom: 20px;
+    }
+    
+
+    /* client logo goes to here------- */
+    .client-logo-slider {
+        padding: 50px 0;
+    }
+    /* foooter bar goes to here------- */
+    #footer {
+        margin-top: -97px;
+        clip-path: polygon(0 11.4%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .footer-logo {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #footer::after {
+        bottom: 80%;
+        transform: rotate(-10deg);
+    }
+    .border-right {
+        margin-bottom: 25px;
+    }.follow-us {
+        padding-top: 40px;
+    }
+
+
+    .border-right {
+        border-right:none;
+    }
+
+
+}
+
+/* ==================X-Small Devices================= */
+@media(max-width:575.98px){
+    /* slide bar goes to here------- */
+    .navbar-toggler {
+        display: none;
+    }
+    .slide-openbar {
+        left: auto;
+        right: 25px;
+        top: 17px;
+    }
+    /* Nav bar goes to here------- */
+
+    .navbar {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .navbar-brand img{
+        width: 90px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        font-size: 22px;
+        color: #fff;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        line-height: 40px;
+    }
+    .navbar-expand-lg.nav-bg .navbar-nav .nav-link {
+        line-height: 35px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link.active::after {
+        width: 25%;
+        opacity: 1;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover::after {
+        width: 25%;
+        opacity: 1;
+    }
+
+    /* banner bar goes to here------- */
+    .banner-content a {
+        padding: 12px 20px;
+    }
+    .arrows .left {
+        top: 62%;
+        left: 5%;
+    }
+    .arrows .right {
+        top: 62%;
+        right: 5%;
+    }
+    /* about us bar goes to here------- */
+    .about-box-top {
+        width: 300px;
+        top: -45%;
+        padding: 25px 25px 20px 25px;
+    }
+    .about-box-bottom {
+        width: 300px;
+        bottom: -77%;
+        padding: 25px 25px 20px 25px;
+    }
+    .about-box-right {
+        display: none;
+    }
+    .about-box-left {
+        display: none;
+    }
+    .about-item .mid-circle {
+        width: 300px;
+        height: 300px;
+    }
+    .about-item .img-circle {
+        width: 280px;
+        height: 280px;
+    }
+    .about-box-top::before {
+        width: 15px;
+        height: 15px;
+    }
+    .about-box-bottom::before {
+        width: 15px;
+        height: 15px;
+    }
+    /* protfolio bar goes to here------- */
+    .gallery-img {
+        margin: 0 7.5px;
+    }
+    .gallery-item {
+        padding-bottom: 15px;
+    }
+    .gall-overlay i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .vbox-container img {
+        max-width: 100%;
+    }
+
+    /* services goes to here------- */
+    #services .service-item.slick-center .service-icon {
+        transform: scale(1);
+    }
+    .service-title {
+        padding-bottom: 10px;
+    }
+    .service-icon {
+        margin-bottom: 10px;
+    }
+    .service-desc1 p::after {
+        top: -6px;
+        right: 37%;
+        background-color: #f1f1f1;
+        transform: translateX(-50%) rotate(-45deg);
+    }
+    .service-desc p::after {
+        top: -6px;
+        left: 50%;
+        transform: translateX(-50%) rotate(-45deg);
+    }
+    .service-desc {
+        padding-top: 20px;
+    }
+  
+    .service-chavron-icon .upp1{
+        top: 0;
+    }
+    .service-chavron-icon .downn1{
+        bottom: 0;
+    }
+    /* testimonial bar goes to here------- */
+    .feedback-arrowss {
+        z-index: 1;
+        position: relative;
+    }
+
+    .feed-img {
+        width: 80px;
+        height: 80px;
+    }
+    .feed-slider-item.slick-center .feed-img {
+        transform: scale(1.1);
+    }
+    .feed-slider-item {
+        padding: 0;
+    }
+    .feed-slider-item.slick-slide {
+        padding: 10px 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .feed-desc-item::after {
+        top: -2%;
+        left: 50%;
+        transform: translateX(-50%)rotate(-45deg);
+        background-color: #f1f1f1;
+    }
+    #feedback .feed-slider-desc .slick-list.draggable {
+	padding: 95px 0px;
+    }
+    .feed-desc-item {
+        padding: 20px 15px;
+    }
+    .feed-desc-text p {
+        padding-bottom: 0;
+    }
+    .feedback-arrowss .down1 {
+        bottom: -60%;
+    }
+    .feedback-arrows-main::after {
+        height: 0;
+    }
+    .feed-content{
+        /* position: relative;
+        z-index: 1; */
+        width: 100%;
+        overflow: hidden;
+    }
+    /* pricing plan bar goes to here------- */
+    .pricing-main {
+        margin-bottom: 20px;
+    }
+    /* counter bar goes to here------- */
+    #counter {
+        clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    }
+    .counter-main1 {
+        padding: 150px 0;
+    }
+    .counter-main {
+        margin-bottom: 20px;
+    }
+    .counter-item h3 {
+        font-size: 24px;
+    }
+    .counter-item h4 {
+        font-size: 14px;
+    }
+
+    /* client logo goes to here------- */
+    .client-logo-slider {
+        padding: 50px 0;
+    }
+    /* foooter bar goes to here------- */
+    #footer {
+        margin-top: -97px;
+        clip-path: polygon(0 11.4%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .footer-logo {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #footer::after {
+        bottom: 80%;
+        transform: rotate(-16deg);
+    }
+    .border-right {
+        margin-bottom: 25px;
+    }.follow-us {
+        padding-top: 40px;
+    }
+    .follow-us i {
+        margin: 0 5px;
+    }
+    .footer-bottom-text p {
+        font-size: 13px;
+    }
+    /* Nav bar goes to here------- */
+    /* Nav bar goes to here------- */
+
+
+}
